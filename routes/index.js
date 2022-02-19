@@ -5,9 +5,9 @@ var mysql = require('mysql');                   // 데이터 베이스 모듈
 /////////////////////////////////////////////////////////////////////
 
 const connection = {                          // 데이터 베이스 연결 설정 
-  host: "cloudcomputing.ceiotvbr944v.ap-northeast-2.rds.amazonaws.com",     
+  host: "nodejs-db.ceiotvbr944v.ap-northeast-2.rds.amazonaws.com",     
   port: "3306",                                // PORT
-  user: "cloud",                                 // 사용자
+  user: "vue",                                 // 사용자
   password: "12345678",                       // 비밀 번호
   database: "member",                         // Database 명
 };
